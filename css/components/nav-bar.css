@@ -18,24 +18,14 @@
   position: relative;
 }
 
-.nav__notification {
-  background-color: tomato;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  color: white;
-  font-weight: 600;
+.nav__notification-chats {
   position: absolute;
   left: 15px;
   bottom: 15px;
 }
 
-.small {
-  width: 7px;
-  height: 7px;
+.nav__notification-more {
+  position: absolute;
+  left: 35px;
   bottom: 25px;
-  left: 30px;
 }

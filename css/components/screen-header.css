@@ -4,6 +4,7 @@
   align-items: center;
   padding: var(--horizontal-space);
   padding-top: 40px;
+  margin-bottom: 10px;
 }
 
 .screen-header__title {
@@ -11,6 +12,16 @@
   font-weight: 600;
 }
 
-.screen-header__icons span {
+.screen-header__icons {
+  position: relative;
+}
+
+.screen-header__icons > span {
   margin-left: 25px;
+}
+
+.screen-header__icons .badge {
+  position: absolute;
+  right: -7px;
+  top: -7px;
 }
