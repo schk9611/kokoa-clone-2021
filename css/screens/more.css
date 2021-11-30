@@ -1,0 +1,19 @@
+.more-screen .icon-column {
+  margin-top: 30px;
+}
+
+.more-suggestions {
+  border-top: var(--main-border);
+}
+
+.more-suggestions__title {
+  padding: 20px 0;
+}
+
+.more-suggestions .icon-row {
+  justify-content: flex-start;
+}
+
+.more-suggestions .icon-row__icon {
+  margin-right: 40px;
+}
